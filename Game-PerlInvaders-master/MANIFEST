@@ -1,0 +1,12 @@
+bin/perl_invaders.pl
+Build.PL
+lib/Game/PerlInvaders.pm
+lib/Game/PerlInvaders/App.pm
+lib/Game/PerlInvaders/Sprite.pm
+MANIFEST			This list of files
+stuff/background_starts.jpg
+stuff/enemy.png
+stuff/mario.png
+stuff/onion.png
+stuff/shot.png
+stuff/stars.png

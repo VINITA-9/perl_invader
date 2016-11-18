@@ -1,0 +1,31 @@
+---
+abstract: 'space invaders game implemented using SDL'
+author:
+  - 'Bruno Ramalhete'
+build_requires:
+  Test::More: '0'
+dynamic_config: 0
+generated_by: 'Module::Build version 0.4218, CPAN::Meta::Converter version 2.150005'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Game-PerlInvaders
+provides:
+  Game::PerlInvaders:
+    file: lib/Game/PerlInvaders.pm
+    version: v0.0.1
+  Game::PerlInvaders::App:
+    file: lib/Game/PerlInvaders/App.pm
+  Game::PerlInvaders::Sprite:
+    file: lib/Game/PerlInvaders/Sprite.pm
+requires:
+  Moose: '0.79'
+  SDL: '1.20'
+  perl: '5.010'
+resources:
+  bugtracker: http://github.com/Spectrum256/Game-PerlInvaders
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/Spectrum256/Game-PerlInvaders
+version: v0.0.1
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
